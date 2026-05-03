@@ -23,7 +23,7 @@ export function SiteHeader() {
         <a
           href="#hero"
           onClick={close}
-          className="font-[var(--font-display)] text-lg font-semibold tracking-tight text-zinc-100 transition-colors hover:text-white"
+          className="font-[var(--font-display)] text-lg font-semibold tracking-tight text-zinc-100 transition-all duration-300 ease-out hover:text-white"
         >
           Sulav Timalsina
         </a>
@@ -33,14 +33,14 @@ export function SiteHeader() {
             <a
               key={href}
               href={href}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-zinc-400 transition-colors hover:bg-zinc-800/60 hover:text-zinc-100"
+              className="rounded-lg px-3 py-2 text-sm font-medium text-zinc-400 transition-all duration-300 ease-out hover:bg-zinc-800/60 hover:text-zinc-100"
             >
               {label}
             </a>
           ))}
           <a
             href="#contact"
-            className="ml-2 rounded-full bg-zinc-100 px-4 py-2 text-sm font-semibold text-zinc-950 transition-colors hover:bg-white"
+            className="ml-2 rounded-full bg-zinc-100 px-4 py-2 text-sm font-semibold text-zinc-950 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:bg-white"
           >
             Let&apos;s Talk
           </a>
@@ -50,13 +50,13 @@ export function SiteHeader() {
           <a
             href="#contact"
             onClick={close}
-            className="rounded-full bg-zinc-100 px-3 py-2 text-xs font-semibold text-zinc-950"
+            className="rounded-full bg-zinc-100 px-3 py-2 text-xs font-semibold text-zinc-950 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:bg-white"
           >
             Let&apos;s Talk
           </a>
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-zinc-700 text-zinc-200 hover:bg-zinc-800/80"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-zinc-700 text-zinc-200 transition-all duration-300 ease-out hover:bg-zinc-800/80"
             aria-expanded={open}
             aria-controls="mobile-nav"
             onClick={() => setOpen((v) => !v)}
@@ -91,7 +91,7 @@ export function SiteHeader() {
               key={href}
               href={href}
               onClick={close}
-              className="rounded-lg px-3 py-3 text-sm font-medium text-zinc-300 hover:bg-zinc-800/70 hover:text-white"
+              className="rounded-lg px-3 py-3 text-sm font-medium text-zinc-300 transition-all duration-300 ease-out hover:bg-zinc-800/70 hover:text-white"
             >
               {label}
             </a>
