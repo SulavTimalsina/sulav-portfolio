@@ -29,7 +29,7 @@ export const ventures: Venture[] = [
     period: "This fiscal year — present",
     status: "active",
     summary:
-      "Family-run interlock (paver block) manufacturing company in Bhaktapur. Took over the business this fiscal year after running its operations for seven months as Operations Manager. Now responsible for production planning, vendor and supplier relationships, client relationships, and financials.",
+      "Interlock (paver block) manufacturing company in Bhaktapur. Took over the business this fiscal year after running its operations for seven months as Operations Manager. Now responsible for production planning, vendor and supplier relationships, client relationships, and financials.",
     tags: ["Manufacturing", "Operations", "P&L Ownership"],
   },
   {
@@ -57,7 +57,7 @@ export const research = {
     "My final-year research project, and the clearest example of how I like to work: pick a problem nobody's incentivized to solve, and build the whole stack yourself.",
   headline: "Lost Voices: an AI voice for a language with no digital footprint",
   body:
-    "Sunuwar has roughly 79,000 speakers and, until this project, no existing digital resources. I lead a three-person team building the first AI voice synthesis system for the language from scratch: corpus construction, a custom preprocessing pipeline, word embeddings, a custom tokeniser, training a small BERT transformer from scratch, and fine-tuning Meta's MMS text-to-speech model.",
+    "Sunuwar has roughly 32,708 speakers and, until this project, no existing full scale nlp digital resources. I lead a three-person team building the first AI voice synthesis system for the language from scratch: corpus construction, a custom preprocessing pipeline, word embeddings, a custom tokeniser, training a small BERT transformer from scratch, and fine-tuning Meta's MMS text-to-speech model.",
   award: "Best Project Built With ElevenLabs — JunctionX Kathmandu, FinnoFest 2026",
   image: "/images/lost-voices-trophy.jpg",
 };
